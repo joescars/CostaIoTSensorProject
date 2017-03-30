@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubTrigger",
+      "direction": "in",
+      "path": "alerts",
+      "connection": "costaalerts"
+    },
+    {
+      "type": "twilioSms",
+      "name": "message",
+      "accountSid": "TwilioAccountSid",
+      "authToken": "TwilioAuthToken",
+      "to": "+15615551212",
+      "from": "+15615551212",
+      "direction": "out",
+      "body": "Azure Functions Testing"
+    }
+  ],
+  "disabled": false
+}
