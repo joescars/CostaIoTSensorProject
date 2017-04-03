@@ -1,0 +1,16 @@
+{
+  "name": "iothubmsgsimulator",
+  "version": "1.0.0",
+  "description": "simulates iot device to azure iot hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Raio",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.1.8",
+    "azure-iot-device-mqtt": "^1.1.8",
+    "dotenv": "^4.0.0"
+  }
+}
