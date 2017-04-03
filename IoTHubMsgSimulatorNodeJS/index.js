@@ -1,8 +1,8 @@
 'use strict';
 require('dotenv').config();
 
- var clientFromConnectionString = require('azure-iot-device-mqtt').clientFromConnectionString;
- var Message = require('azure-iot-device').Message;
+var clientFromConnectionString = require('azure-iot-device-mqtt').clientFromConnectionString;
+var Message = require('azure-iot-device').Message;
 
 // Pull in variables
 var iotHost = process.env.IOT_HOST;
@@ -48,4 +48,4 @@ var connectCallback = function (err) {
     }
 };
 
- client.open(connectCallback);
+client.open(connectCallback);
