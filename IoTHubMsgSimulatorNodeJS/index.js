@@ -39,7 +39,7 @@ var connectCallback = function (err) {
                 minvalue: 1,
                 maxvalue: 6,
                 currentvalue: randSensorValue,
-                sensortype: 'randSensorValue'
+                sensortype: 'PH'
             });
             var message = new Message(data);
             console.log("Sending message: " + message.getData());
